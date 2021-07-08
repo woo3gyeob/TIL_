@@ -22,7 +22,7 @@ Django에서 기본적으로 User 객체의 password 저장에 사용하는 알�
 
 구현이 쉽고, 보안성이 뛰어나 미국표준기술연구소(NIST)에서도 승인한 알고리즘이다.
 
-![image-20210323141619284](0323_hw.assets/image-20210323141619284.png)
+![안전한 패스워드 저장](User객체_해시함수.assets/helloworld-318732-2-1625703964068.png)
 
 `DIGEST = PBKDF2(PRF, Password, Salt, c, DLen)  `
 
